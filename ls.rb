@@ -1,3 +1,5 @@
+require './command'
+
 class Ls < Command
   def initialize()
     super('ls', 'Lists the files in the current directory.')

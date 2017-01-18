@@ -1,9 +1,17 @@
 require './ls'
+require './command_registry'
 
 class Shell
+
   def find(name)
-    if name == 'ls'
-      Ls.new
-    end
+    CommandRegistry.find(name)
   end
+
+  private
 end
+
+def load_known_commands
+  Ls.new
+end
+
+load_known_commands

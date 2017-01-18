@@ -1,3 +1,5 @@
+require './command_registry'
+
 class Command
 
   attr_accessor :name, :description, :out, :env
@@ -6,7 +8,8 @@ class Command
     @name = name
     @description = description
     @out = $stdout
-    @env = {}
+    @env = Command.environment
+    CommandRegistry.register(self)
   end
 
   def execute(args=[])
@@ -15,5 +18,11 @@ class Command
 
   def puts(msg)
     out.puts(msg)
+  end
+
+  private
+
+  def self.environment
+    @environment ||= {}
   end
 end
