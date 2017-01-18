@@ -4,6 +4,7 @@ COMMANDS.each do |cmd|
   require "./#{cmd}"
 end
 
+require './prompt'
 require './command_registry'
 
 class Shell
@@ -13,8 +14,10 @@ class Shell
   end
 
   def run
+    prompt = Prompt.new('%{user}@RubyShell> ')
+
     loop do
-      print 'RubyShell> '
+      print prompt.text
       input_parts = gets.strip.split
       cmd_name, args = input_parts[0], input_parts[1..-1]
 
@@ -25,6 +28,10 @@ class Shell
         cmd.execute(args)
       end
     end
+  end
+
+  def self.environment
+    @environment ||= {user: ENV['USER'] || 'user'}
   end
 end
 

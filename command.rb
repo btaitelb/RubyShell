@@ -8,7 +8,7 @@ class Command
     @name = name
     @description = description
     @out = $stdout
-    @env = Command.environment
+    @env = Shell.environment
     CommandRegistry.register(self)
   end
 
@@ -20,9 +20,4 @@ class Command
     out.puts(msg)
   end
 
-  private
-
-  def self.environment
-    @environment ||= {}
-  end
 end

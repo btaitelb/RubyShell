@@ -3,4 +3,5 @@ COMMANDS = %w[
   touch
   help
   exit
+  su
 ]
