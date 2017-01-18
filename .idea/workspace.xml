@@ -14,8 +14,9 @@
     <SUITE FILE_PATH="coverage/shell@should_find_the_ls_command__shell_spec_rb___shell.coverage" NAME="should find the ls command (shell_spec.rb): shell Coverage Results" MODIFIED="1484767893253" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="shell" />
     <SUITE FILE_PATH="coverage/shell@Run_spec__shell_spec___shell.coverage" NAME="Run spec 'shell_spec': shell Coverage Results" MODIFIED="1484768199844" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="shell" />
     <SUITE FILE_PATH="coverage/shell@Run_test__shell_spec___shell.coverage" NAME="Run test 'shell_spec': shell Coverage Results" MODIFIED="1484767804855" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="shell" />
-    <SUITE FILE_PATH="coverage/shell@IRB_console__shell.coverage" NAME="IRB console: shell Coverage Results" MODIFIED="1484767588100" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="shell" />
-    <SUITE FILE_PATH="coverage/shell@All_specs_in_spec__shell.coverage" NAME="All specs in spec: shell Coverage Results" MODIFIED="1484768207679" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="shell" />
+    <SUITE FILE_PATH="coverage/shell@IRB_console__shell.coverage" NAME="IRB console: shell Coverage Results" MODIFIED="1484768974660" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="shell" />
+    <SUITE FILE_PATH="coverage/shell@All_specs_in_shell__shell.coverage" NAME="All specs in shell: shell Coverage Results" MODIFIED="1484769966278" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="shell" />
+    <SUITE FILE_PATH="coverage/shell@All_specs_in_spec__shell.coverage" NAME="All specs in spec: shell Coverage Results" MODIFIED="1484768550641" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="shell" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -23,11 +24,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="touch_spec.rb" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/spec/touch_spec.rb">
+      <file leaf-file-name="command.rb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/command.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="261">
+              <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -44,7 +45,12 @@
         <option value="$PROJECT_DIR$/command.rb" />
         <option value="$PROJECT_DIR$/command_registry.rb" />
         <option value="$PROJECT_DIR$/ls.rb" />
+        <option value="$PROJECT_DIR$/spec/touch_spec.rb" />
+        <option value="$PROJECT_DIR$/touch.rb" />
+        <option value="$PROJECT_DIR$/all_commands.rb" />
         <option value="$PROJECT_DIR$/shell.rb" />
+        <option value="$PROJECT_DIR$/exit.rb" />
+        <option value="$PROJECT_DIR$/help.rb" />
       </list>
     </option>
   </component>
@@ -112,7 +118,7 @@
     <property name="js.eslint.eslintPackage" value="" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
   </component>
-  <component name="RunManager" selected="RSpec.All specs in spec: shell">
+  <component name="RunManager" selected="RSpec.All specs in shell: shell">
     <configuration default="false" name="All specs in spec: shell" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="shell" />
@@ -164,35 +170,6 @@
       <IRB_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$APPLICATION_HOME_DIR$/rb/testing/runner/irb.rb" />
       <IRB_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="--prompt simple" />
       <IRB_RUN_CONFIG NAME="IS_RAILS_CONSOLE" VALUE="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Run test 'shell_spec': shell" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true">
-      <predefined_log_file id="RUBY_TESTUNIT" enabled="true" />
-      <module name="shell" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift) " />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs>
-        <env name="JRUBY_OPTS" value="-X+O" />
-      </envs>
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/shell_spec.rb" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
       <method />
     </configuration>
     <configuration default="false" name="Run spec 'shell_spec': shell" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
@@ -255,6 +232,39 @@
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
+      <method />
+    </configuration>
+    <configuration default="false" name="All specs in shell: shell" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
+      <module name="shell" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="$MODULE_DIR$" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="ALL_IN_FOLDER" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
       <method />
     </configuration>
     <configuration default="true" type="CucumberRunConfigurationType" factoryName="Cucumber">
@@ -410,17 +420,16 @@
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="RSpec.All specs in spec: shell" />
       <item index="1" class="java.lang.String" itemvalue="IRB console.IRB console: shell" />
-      <item index="2" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.Run test 'shell_spec': shell" />
-      <item index="3" class="java.lang.String" itemvalue="RSpec.Run spec 'shell_spec': shell" />
-      <item index="4" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.should find the ls command (shell_spec.rb): shell" />
+      <item index="2" class="java.lang.String" itemvalue="RSpec.Run spec 'shell_spec': shell" />
+      <item index="3" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.should find the ls command (shell_spec.rb): shell" />
+      <item index="4" class="java.lang.String" itemvalue="RSpec.All specs in shell: shell" />
     </list>
     <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="RSpec.All specs in spec: shell" />
-        <item index="1" class="java.lang.String" itemvalue="RSpec.Run spec 'shell_spec': shell" />
-        <item index="2" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.should find the ls command (shell_spec.rb): shell" />
-        <item index="3" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.Run test 'shell_spec': shell" />
-        <item index="4" class="java.lang.String" itemvalue="IRB console.IRB console: shell" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="RSpec.All specs in shell: shell" />
+        <item index="1" class="java.lang.String" itemvalue="IRB console.IRB console: shell" />
+        <item index="2" class="java.lang.String" itemvalue="RSpec.All specs in spec: shell" />
+        <item index="3" class="java.lang.String" itemvalue="RSpec.Run spec 'shell_spec': shell" />
       </list>
     </recent_temporary>
   </component>
@@ -434,28 +443,31 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1484757313303</updated>
-      <workItem from="1484757314449" duration="5694000" />
+      <workItem from="1484757314449" duration="7410000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_specs_in_spec__shell - 2017.01.18 at 12h 29m 21s.xml">
-      <configuration name="All specs in spec: shell" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="All_specs_in_shell__shell - 2017.01.18 at 14h 44m 47s.xml">
+      <configuration name="All specs in shell: shell" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="All_specs_in_spec__shell - 2017.01.18 at 12h 30m 16s.xml">
-      <configuration name="All specs in spec: shell" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="All_specs_in_shell__shell - 2017.01.18 at 14h 45m 18s.xml">
+      <configuration name="All specs in shell: shell" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="All_specs_in_spec__shell - 2017.01.18 at 14h 15m 23s.xml">
-      <configuration name="All specs in spec: shell" configurationId="RSpecRunConfigurationType" />
-    </history-entry>
-    <history-entry file="All_specs_in_spec__shell - 2017.01.18 at 14h 29m 27s.xml">
-      <configuration name="All specs in spec: shell" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="All_specs_in_shell__shell - 2017.01.18 at 15h 06m 06s.xml">
+      <configuration name="All specs in shell: shell" configurationId="RSpecRunConfigurationType" />
     </history-entry>
     <history-entry file="All_specs_in_spec__shell - 2017.01.18 at 14h 36m 47s.xml">
       <configuration name="All specs in spec: shell" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="Run_spec_'shell_spec'__shell - 2017.01.18 at 14h 30m 14s.xml">
-      <configuration name="Run spec 'shell_spec': shell" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="All_specs_in_spec__shell - 2017.01.18 at 14h 41m 06s.xml">
+      <configuration name="All specs in spec: shell" configurationId="RSpecRunConfigurationType" />
+    </history-entry>
+    <history-entry file="All_specs_in_spec__shell - 2017.01.18 at 14h 41m 40s.xml">
+      <configuration name="All specs in spec: shell" configurationId="RSpecRunConfigurationType" />
+    </history-entry>
+    <history-entry file="All_specs_in_spec__shell - 2017.01.18 at 14h 42m 30s.xml">
+      <configuration name="All specs in spec: shell" configurationId="RSpecRunConfigurationType" />
     </history-entry>
     <history-entry file="Run_spec_'shell_spec'__shell - 2017.01.18 at 14h 31m 45s.xml">
       <configuration name="Run spec 'shell_spec': shell" configurationId="RSpecRunConfigurationType" />
@@ -463,15 +475,12 @@
     <history-entry file="Run_spec_'shell_spec'__shell - 2017.01.18 at 14h 36m 40s.xml">
       <configuration name="Run spec 'shell_spec': shell" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="Run_test_'shell_spec'__shell - 2017.01.18 at 14h 30m 05s.xml">
-      <configuration name="Run test 'shell_spec': shell" configurationId="TestUnitRunConfigurationType" />
-    </history-entry>
     <history-entry file="should_find_the_ls_command_(shell_spec_rb)__shell - 2017.01.18 at 14h 31m 33s.xml">
       <configuration name="should find the ls command (shell_spec.rb): shell" configurationId="TestUnitRunConfigurationType" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5694000" />
+    <option name="totallyTimeSpent" value="7410000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-37" width="1920" height="1117" extended-state="0" />
@@ -525,33 +534,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/command.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="609">
-          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding>
-            <marker date="1484767577729" expanded="true" signature="43:441" ph=" ... end" />
-            <marker date="1484767577729" expanded="true" signature="132:271" ph=" ... end" />
-            <marker date="1484767577729" expanded="true" signature="295:331" ph=" ... end" />
-            <marker date="1484767577729" expanded="true" signature="348:372" ph=" ... end" />
-            <marker date="1484767577729" expanded="true" signature="407:437" ph=" ... end" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/command_registry.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="10" column="1" lean-forward="false" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-          <folding>
-            <marker date="1484767889429" expanded="true" signature="21:181" ph=" ... end" />
-            <marker date="1484767889429" expanded="true" signature="46:81" ph=" ... end" />
-            <marker date="1484767889429" expanded="true" signature="104:129" ph=" ... end" />
-            <marker date="1484767889429" expanded="true" signature="150:177" ph=" ... end" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spec/ls_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
@@ -585,18 +567,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shell.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding>
-            <marker date="1484768195577" expanded="true" signature="56:126" ph=" ... end" />
-            <marker date="1484768195577" expanded="true" signature="74:111" ph=" ... end" />
-            <marker date="1484768195577" expanded="true" signature="151:164" ph=" ... end" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ls.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="457">
@@ -610,18 +580,100 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/spec/touch_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="29">
+          <caret line="1" column="27" lean-forward="true" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="27" />
+          <folding>
+            <marker date="1484768463743" expanded="true" signature="60:540" ph="do ... end" />
+            <marker date="1484768463743" expanded="true" signature="85:536" ph="do ... end" />
+            <marker date="1484768463743" expanded="true" signature="102:115" ph="{ ... }" />
+            <marker date="1484768463743" expanded="true" signature="170:279" ph="do ... end" />
+            <marker date="1484768463743" expanded="true" signature="342:530" ph="do ... end" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/touch.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="290">
+          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+          <folding>
+            <marker date="1484768715705" expanded="true" signature="32:200" ph=" ... end" />
+            <marker date="1484768715705" expanded="true" signature="59:117" ph=" ... end" />
+            <marker date="1484768715705" expanded="true" signature="143:196" ph=" ... end" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/all_commands.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/touch_spec.rb">
+    <entry file="file://$PROJECT_DIR$/shell.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="87">
+          <caret line="3" column="20" lean-forward="true" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+          <folding>
+            <marker date="1484769553022" expanded="true" signature="66:99" ph="do ... end" />
+            <marker date="1484769553022" expanded="true" signature="142:502" ph=" ... end" />
+            <marker date="1484769553022" expanded="true" signature="160:197" ph=" ... end" />
+            <marker date="1484769553022" expanded="true" signature="208:498" ph=" ... end" />
+            <marker date="1484769553022" expanded="true" signature="218:492" ph="do ... end" />
+            <marker date="1484769553022" expanded="true" signature="376:484" ph="if ... end" />
+            <marker date="1484769553022" expanded="true" signature="527:596" ph=" ... end" />
+            <marker date="1484769553022" expanded="true" signature="544:592" ph="do ... end" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exit.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+          <folding>
+            <marker date="1484769636255" expanded="true" signature="10:219" ph=" ... end" />
+            <marker date="1484769636255" expanded="true" signature="37:83" ph=" ... end" />
+            <marker date="1484769636255" expanded="true" signature="109:215" ph=" ... end" />
+            <marker date="1484769636255" expanded="true" signature="114:193" ph="if ... end" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/command_registry.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="19" />
+          <folding>
+            <marker date="1484767889429" expanded="true" signature="21:181" ph=" ... end" />
+            <marker date="1484767889429" expanded="true" signature="46:81" ph=" ... end" />
+            <marker date="1484767889429" expanded="true" signature="104:129" ph=" ... end" />
+            <marker date="1484767889429" expanded="true" signature="150:177" ph=" ... end" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/help.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+          <folding>
+            <marker date="1484769881661" expanded="true" signature="40:266" ph=" ... end" />
+            <marker date="1484769881661" expanded="true" signature="67:122" ph=" ... end" />
+            <marker date="1484769881661" expanded="true" signature="148:261" ph=" ... end" />
+            <marker date="1484769881661" expanded="true" signature="183:255" ph="do ... end" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/command.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
           <folding />
         </state>
       </provider>
